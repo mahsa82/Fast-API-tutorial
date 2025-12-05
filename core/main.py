@@ -8,7 +8,6 @@ cost_list = {}
 current_id = 0
 
 
-# ✅ مدل ورودی (بدون id)
 class ExpenseCreate(BaseModel):
     description: Annotated[
         str,
